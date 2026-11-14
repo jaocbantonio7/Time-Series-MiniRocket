@@ -1,0 +1,32 @@
+{
+  "dataset": "MosquitoSound",
+  "source_train": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_data/MosquitoSound/MosquitoSound_TRAIN.arff",
+  "source_test": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_data/MosquitoSound/MosquitoSound_TEST.arff",
+  "source_train_bytes": 4874456574,
+  "source_test_bytes": 4874629540,
+  "train_cases": 139780,
+  "test_cases": 139786,
+  "series_length": 3750,
+  "classes": [
+    "Aedes_aegypti",
+    "Aedes_albopictus",
+    "Anopheles_arabiensis",
+    "Anopheles_gambiae",
+    "Culex_pipiens",
+    "Culex_quinquefasciatus"
+  ],
+  "label_to_integer": {
+    "Aedes_aegypti": 0,
+    "Aedes_albopictus": 1,
+    "Anopheles_arabiensis": 2,
+    "Anopheles_gambiae": 3,
+    "Culex_pipiens": 4,
+    "Culex_quinquefasciatus": 5
+  },
+  "shuffle_seed": 2026,
+  "validation_rows": 2048,
+  "train_csv": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/MosquitoSound_TRAIN_shuffled.csv",
+  "test_csv": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/MosquitoSound_TEST.csv",
+  "train_order_file": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/MosquitoSound_train_order_seed2026.npy",
+  "preparation_method": "streaming row-by-row conversion; no full split loaded into RAM"
+}

@@ -1,0 +1,40 @@
+{
+  "dataset": "InsectSound",
+  "source_train": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_data/InsectSound/InsectSound_TRAIN.ts",
+  "source_test": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_data/InsectSound/InsectSound_TEST.ts",
+  "source_train_bytes": 171233863,
+  "source_test_bytes": 171355126,
+  "train_cases": 25000,
+  "test_cases": 25000,
+  "series_length": 600,
+  "classes": [
+    "Aedes_female",
+    "Aedes_male",
+    "Fruit_flies",
+    "House_flies",
+    "Quinx_female",
+    "Quinx_male",
+    "Stigma_female",
+    "Stigma_male",
+    "Tarsalis_female",
+    "Tarsalis_male"
+  ],
+  "label_to_integer": {
+    "Aedes_female": 0,
+    "Aedes_male": 1,
+    "Fruit_flies": 2,
+    "House_flies": 3,
+    "Quinx_female": 4,
+    "Quinx_male": 5,
+    "Stigma_female": 6,
+    "Stigma_male": 7,
+    "Tarsalis_female": 8,
+    "Tarsalis_male": 9
+  },
+  "shuffle_seed": 2026,
+  "validation_rows": 2048,
+  "train_csv": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/InsectSound_TRAIN_shuffled.csv",
+  "test_csv": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/InsectSound_TEST.csv",
+  "train_order_file": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/InsectSound_train_order_seed2026.npy",
+  "preparation_method": "streaming row-by-row conversion; no full split loaded into RAM"
+}

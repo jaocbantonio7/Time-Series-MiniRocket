@@ -1,0 +1,26 @@
+{
+  "dataset": "FruitFlies",
+  "source_train": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_data/FruitFlies/FruitFlies_TRAIN.ts",
+  "source_test": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_data/FruitFlies/FruitFlies_TEST.ts",
+  "source_train_bytes": 1038793146,
+  "source_test_bytes": 1038777247,
+  "train_cases": 17259,
+  "test_cases": 17259,
+  "series_length": 5000,
+  "classes": [
+    "0",
+    "1",
+    "2"
+  ],
+  "label_to_integer": {
+    "0": 0,
+    "1": 1,
+    "2": 2
+  },
+  "shuffle_seed": 2026,
+  "validation_rows": 2048,
+  "train_csv": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/FruitFlies_TRAIN_shuffled.csv",
+  "test_csv": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/FruitFlies_TEST.csv",
+  "train_order_file": "/Users/uchhasdewan/Downloads/UCD-academics/projects/ai-for-time-series/minirocket_scalability_prepared/FruitFlies_train_order_seed2026.npy",
+  "preparation_method": "streaming row-by-row conversion; no full split loaded into RAM"
+}

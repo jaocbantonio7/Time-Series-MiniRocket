@@ -1,0 +1,6 @@
+dataset,training_examples_excluding_validation,validation_examples,test_examples,accuracy,training_seconds_including_validation_transform,test_transform_predict_seconds,test_accuracy_evaluated,reference_training_seconds,torch_seed,num_features_requested,num_features_actual,cache_size
+FruitFlies,1024,2048,17259,,27.998632625000027,,False,24.24,2026,10000,9996,1024
+FruitFlies,2048,2048,17259,,36.44505533299889,,False,32.6,2027,10000,9996,2048
+FruitFlies,4096,2048,17259,,53.76045079200048,,False,49.79,2028,10000,9996,4096
+FruitFlies,8192,2048,17259,,91.5841192500011,,False,82.8,2029,10000,9996,8192
+FruitFlies,15211,2048,17259,0.9517353264963208,147.2495366660005,141.3892584580026,True,141.67,2030,10000,9996,15211

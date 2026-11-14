@@ -1,0 +1,7 @@
+dataset,training_examples_excluding_validation,validation_examples,test_examples,accuracy,training_seconds_including_validation_transform,test_transform_predict_seconds,test_accuracy_evaluated,reference_training_seconds,torch_seed,num_features_requested,num_features_actual,cache_size
+InsectSound,1024,2048,25000,,5.003848917000141,,False,5.05,2026,10000,9996,1024
+InsectSound,2048,2048,25000,,5.437650083000335,,False,8.42,2027,10000,9996,2048
+InsectSound,4096,2048,25000,,8.518462416999682,,False,12.38,2028,10000,9996,4096
+InsectSound,8192,2048,25000,,15.1951807919977,,False,21.52,2029,10000,9996,8192
+InsectSound,16384,2048,25000,,23.159283249999135,,False,32.86,2030,10000,9996,16384
+InsectSound,22952,2048,25000,0.77252,29.543156874999113,22.933308458999818,True,36.96,2031,10000,9996,22952
